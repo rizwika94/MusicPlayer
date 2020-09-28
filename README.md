@@ -6,7 +6,7 @@ A simple music player application built with Dart and Flutter
 
 This application tested in Android (physical device and emulator).
 
-![walkman.png]
+![walkman.png](assets/images/walkman.png)
 
 follow the instructions from the
 Flutter site [here](https://flutter.dev/docs/get-started/install).
