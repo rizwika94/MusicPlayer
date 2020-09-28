@@ -1,16 +1,27 @@
-# music_player
+# walkman_music
 
-A new Flutter project.
+A simple music player application built with Dart and Flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application tested in Android (physical device and emulator).
 
-A few resources to get you started if this is your first Flutter project:
+## App Architecture (Clean Architecture with Bloc Pattern)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+It is based on a layered approach:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* UI - UI is presented to the user 
+* Bloc - Handles the state for the UI. Communication happens through sinks and streams
+* Data 
+     * Network - Interacts with the iTunes API to fetch and parse data
+     * Repository - The repository interfaces use the entities
+         
+
+## Plugins used in Project
+
+Below are the packages used in the application
+
+* [just_audio](https://pub.dev/packages/just_audio) -  Plays audio from URLs, files, assets, sDASH/HLS streams and playlist. 
+* [audio session](pub.dev/packages/audio_session) - Configures your app's audio category and configures how your app interacts with other audio apps.
+* [RxDart](https://pub.dev/packages/rxdart) - Adds the additional capabilities to Dart Streams and StreamControllers
+* [Connectivity](https://pub.dev/packages/connectivity) - To discover network connectivity and configure themselves
