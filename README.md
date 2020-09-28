@@ -6,6 +6,35 @@ A simple music player application built with Dart and Flutter
 
 This application tested in Android (physical device and emulator).
 
+![walkman.png]
+
+follow the instructions from the
+Flutter site [here](https://flutter.dev/docs/get-started/install).
+
+To build from source fetch the latest from master:
+
+```
+git clone https://github.com/rizwika94/MusicPlayer.git
+```
+
+From the anytime directory fetch the dependencies:
+
+```
+flutter packages get
+```
+
+Then either run:
+
+```
+flutter run
+```
+
+Or build:
+
+```
+flutter build apk
+```
+
 ## App Architecture (Clean Architecture with Bloc Pattern)
 
 It is based on a layered approach:

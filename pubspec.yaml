@@ -55,6 +55,7 @@ flutter:
   assets:
      - assets/images/splashImage.jpg
      - assets/images/music.jpg
+     - assets/images/walkman.png
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
